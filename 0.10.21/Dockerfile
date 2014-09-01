@@ -19,4 +19,3 @@ ENV NODE_ENV production
 
 ONBUILD ADD ./package.json /app/package.json
 ONBUILD RUN npm install -p && npm cache clean
-ONBUILD ADD . /app
